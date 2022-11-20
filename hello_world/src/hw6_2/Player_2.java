@@ -15,9 +15,9 @@ public class Player_2 {
 		System.out.println("Your current number is "+x);
 		System.out.println("If you accept the number write 'y'");
 		String answer = Scanner.nextLine();
-		System.out.println(answer);
+		
 		if(answer.equals("y")) {
-			System.out.println("ok");
+			
 			i=10;
 			break;
 			

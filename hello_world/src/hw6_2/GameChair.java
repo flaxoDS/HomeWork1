@@ -26,33 +26,11 @@ public class GameChair {
 			string = "Player_2";
 		}
 		System.out.println("Computer: "+computer);
-		System.out.println("Player: "+player);
+		System.out.println("Player_2: "+player);
 		System.out.println(string+" hat gewonnen");
 		return string;
 		
 	}
-	public static Computer getComputer() {
-		return Computer;
-	}
-	public static void setComputer(Computer computer) {
-		Computer = computer;
-	}
-	public static Player_2 getPlayer_2() {
-		return Player_2;
-	}
-	public static void setPlayer_2(Player_2 player_2) {
-		Player_2 = player_2;
-	}
-	public int getX() {
-		return x;
-	}
-	public  void setX(int x) {
-		this.x = x;
-	}
-	public int getY() {
-		return y;
-	}
-	public void setY(int y) {
-		this.y = y;
-	}
+	
+	
 }
